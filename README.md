@@ -1,5 +1,12 @@
 Aplicativo Sauim de Coleira
-=====================================================================
+=========================================================================
+
+Utilizei a biblioteca do ngCordova para desenvolver as funcionalidades da aplicação
+e como base para o layout o ionic. segue os links para maiores informações
+
+http://ngcordova.com/
+https://ionicframework.com/
+
 
 
 See [LICENSE.md](<LICENSE.md>) for license terms and conditions.
