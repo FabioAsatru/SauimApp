@@ -1,0 +1,34 @@
+<ion-view view-title="Sauim">
+  <ion-content class="padding ">
+   
+
+<div class="card" ng-repeat="post in lista">
+ <!-- <div class="item item-divider">
+     latitude:{{post.latitude}}<br/>longitude:{{post.longitude}}
+  </div>-->
+  <div class="item item-text-wrap" >
+    <img ng-src="{{post.imagem}}" class="image">
+  </div>
+  <a class="item item-icon-left balanced" href="#/tab/dash/{{post.id}}">
+    <i class="icon ion-plus-round"></i>
+      Mais informações
+  </a>
+
+</div>
+
+
+<button class="button button-block button-balanced" ng-show="btn">
+  Sem novos resultados
+</button>
+
+  <ion-infinite-scroll
+    on-infinite="paginacao()"
+    distance="1%">
+  </ion-infinite-scroll>
+</ion-content>
+
+  </ion-content>
+        <button class="add balanced" ng-click="Showfoto()">
+        <i class="ion-plus-round add " style="background-color:green"></i>
+   </button>
+</ion-view>
